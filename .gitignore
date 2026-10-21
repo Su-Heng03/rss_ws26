@@ -31,3 +31,6 @@ venv/
 *.pt
 *.pth
 *.onnx
+
+# Local Git history backup
+.git_old_backup/
