@@ -1,0 +1,33 @@
+# ROS2 / colcon
+**/build/
+**/install/
+**/log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.swp
+*.log
+
+# 密钥与本地环境配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 大型模型权重
+*.pt
+*.pth
+*.onnx
